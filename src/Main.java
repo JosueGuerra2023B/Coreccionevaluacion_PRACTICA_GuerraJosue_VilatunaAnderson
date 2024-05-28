@@ -69,6 +69,6 @@ public class Main {
         System.out.println("------------------------------");
         hotel7.imprimirDetalles();
         System.out.println("------------------------------");
-        System.out.println("Creado por Josué Guerra");
+        System.out.println("Creado por Josué Guerra y Anderson Vilotuña");
     }
 }
