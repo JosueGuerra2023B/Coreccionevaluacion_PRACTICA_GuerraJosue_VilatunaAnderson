@@ -15,26 +15,30 @@ public class Main {
         hotel7.modificarHotel("Hotel View", "Laura Díaz", "4 estrellas", 2012, 90, false);
 
         // Modificación de objetos previamente creados
-        hotel1.modificarHotel("Hotel Paradise", "Juan Pérez Jr.", "5 estrellas", 2011, 110, true);
+        hotel1.modificarHotel("Nuevo Hotel Paradise", "Juan Pérez Jr.", "5 estrellas", 2011, 110, true);
         hotel2.cambiarDisponibilidad(true);
 
         // Impresión de todos los objetos
-        System.out.println("------------------------------");
+        System.out.println("\n\n------------------------------");
         System.out.println("Sistema de registro de hoteles");
-        System.out.println("------------------------------");
         hotel1.imprimirDetalles();
-        System.out.println("------------------------------");
         hotel2.imprimirDetalles();
-        System.out.println("------------------------------");
         hotel3.imprimirDetalles();
-        System.out.println("------------------------------");
         hotel4.imprimirDetalles();
-        System.out.println("------------------------------");
         hotel5.imprimirDetalles();
-        System.out.println("------------------------------");
         hotel6.imprimirDetalles();
-        System.out.println("------------------------------");
         hotel7.imprimirDetalles();
+
+        //Cambio de valores a null
+        hotel4.valoresNull();
+        hotel5.valoresNull();
+        hotel6.valoresNull();
+        //Impreción de valores null
+        hotel4.imprimirDetalles();
+        hotel5.imprimirDetalles();
+        hotel6.imprimirDetalles();
+
+
         System.out.println("------------------------------");
         System.out.println("------------------------------");
         System.out.println("Creado por Josué Guerra y Anderson Vilatuña");
