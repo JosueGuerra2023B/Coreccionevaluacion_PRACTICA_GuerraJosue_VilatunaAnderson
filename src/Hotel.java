@@ -109,6 +109,6 @@ public class Hotel {
         setAnio(0);
         setDisponible24_7(null);
         System.out.println("------------------------------");
-        System.out.println("Los valores se cambiaron a null exitosamente");
+        System.out.println("Los valores se cambiaron exitosamente");
     }
 }
