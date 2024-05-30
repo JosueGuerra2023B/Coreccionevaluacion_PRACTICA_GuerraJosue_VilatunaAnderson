@@ -38,10 +38,9 @@ public class Main {
         hotel5.imprimirDetalles();
         hotel6.imprimirDetalles();
 
-
-        System.out.println("------------------------------");
-        System.out.println("------------------------------");
+        System.out.println("-------------------------------------------");
         System.out.println("Creado por Josué Guerra y Anderson Vilatuña");
+        System.out.println("-------------------------------------------");
 
 
     }
